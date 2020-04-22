@@ -58,7 +58,7 @@ public class MethodClass
 		logger.info("window maximize");
 		// collect url from excel sheet c-zentrix
 		System.out.println(" collect url from excel sheet");
-		f2=new FileInputStream("/home/himanshu/eclipse-workspace/Adminui/TestData/Czentrix_data.xls");
+		f2=new FileInputStream("TestData/Czentrix_data.xls");
         Hw=new HSSFWorkbook(f2);
 	    Hs=Hw.getSheet("Sheet3");
 	    excel_url=Hs.getRow(1).getCell(0).getStringCellValue();
